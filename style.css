@@ -1,0 +1,50 @@
+body {
+    background: rgb(252,252,252);
+background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(191,218,176,1) 52%);
+}
+.formContainer {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxContainer {
+    width: 500px;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 35px;
+    background: rgb(252,252,252);
+    background: radial-gradient(circle, rgba(252,252,252,1) 21%, rgba(191,218,176,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
+}
+.formTitle {
+    margin-left: 25px;
+    font-size: 1.5em;
+}
+.formBox1 {
+    margin-top: 15px;
+}
+
+.formButton {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    
+}
+.formButton button {
+    padding: 7px;
+    width: 120px;
+    background: rgba(191,218,176,1);
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+
+.formButton button:hover{
+    border: 1px dashed #FFF;
+}

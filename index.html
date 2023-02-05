@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./T5.js"></script>
+    <style>
+        @import url(./style.css);
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" class="formContainer" onsubmit="return validar()">
+        <div class="boxContainer">
+            <span class="formTitle">Inicio de sessión</span>
+            <!--Campo usuario -->
+            <div class="formBox1">
+                <span class="" ><i class='fas fa-user-alt'></i></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nombre de usuario"
+                  aria-label="Username"
+                  id="Username"
+                />
+                <span id="txtUser">*</span>
+            </div>
+    
+            <!--Campo contraseña -->
+            <div class="formBox1">
+                <span class=""><i class='fas fa-key'></i></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="Contraseña"
+                  aria-label="Password"
+                  id="Password"
+                /> 
+                <span id="txtPassword">*</span>
+            </div>
+            <div class="formButton">
+                <input type="submit" value="Enviar"></input>
+            </div>
+        </div>
+    </form>
+  </body>
+</html>
